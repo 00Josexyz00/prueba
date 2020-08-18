@@ -1,4 +1,4 @@
 # Prueba 2
-Jose Cortes
+Jose Cortez
 Wendy Soto
 Estefania Aguilar
