@@ -4,7 +4,7 @@
 -Wendy Soto
 -Estefania Aguilar
 
-## Descripción computer :computer:iphone :iphone:
-Realizar una aplicación en IONIC que permita llevar el registro de sus calificaciones semestrales. Es decir, permita
-insertar, eliminar o modificar las mismas. Además, permita insertar materias, editarlas o eliminarlas.
+## Descripción computer :computer: :iphone:
+`` Realizar una aplicación en IONIC que permita llevar el registro de sus calificaciones semestrales. Es decir, permita
+insertar, eliminar o modificar las mismas. Además, permita insertar materias, editarlas o eliminarlas.´´
 
