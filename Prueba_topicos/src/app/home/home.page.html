@@ -1,0 +1,48 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      <ion-icon name="laptop-outline"></ion-icon>
+      Registro
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list class="ios list-ios hydrated">
+    <img src="assets/icon/logo_epn.png">
+    <ion-list-header class="ios hydrated">    
+      Lista de Materias y Estudiantes
+    </ion-list-header>
+
+
+
+     <ion-item *ngFor="let booking of Bookings" class="user-list">
+      <ion-label>
+        <h5>
+          <ion-icon name="man"></ion-icon> {{booking.name}}
+        </h5>
+        <p>
+          <ion-icon name="checkmark-circle"></ion-icon> {{booking.mobile}}
+        </p>
+
+        <p>
+         <ion-icon name="book"></ion-icon> {{booking.email}}
+        </p>
+
+        <h5>
+          <ion-icon name="person"></ion-icon> {{booking.professor}}
+        </h5>
+      </ion-label>
+
+      <div class="item-note" item-end>
+        <button ion-button clear [routerLink]="['/edit-appointment/', booking.$key]">
+          <ion-icon name="pencil"style="zoom:2.0"></ion-icon>
+        </button>
+        <p></p>
+        <button ion-button clear (click)="deleteBooking(booking.$key)">
+          <ion-icon name="trash" style="zoom:2.0"></ion-icon>
+        </button>
+      </div>
+    </ion-item>
+  </ion-list>
+</ion-content>
